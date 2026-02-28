@@ -1,0 +1,22 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# ML model artefacts (re-generate via train script)
+app/ml/models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db

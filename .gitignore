@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+.next/
+out/
+dist/
+
+# ML models (regenerated from train script)
+backend/app/ml/models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
