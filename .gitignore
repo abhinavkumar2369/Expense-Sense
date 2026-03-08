@@ -1,0 +1,19 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+frontend/dist/
+
+# Environment files
+**/.env
+**/.env.local
+
+# Python artifacts
+ml-model/__pycache__/
+ml-model/models/
+ml-model/output/
+*.pyc
+
+# OS/editor artifacts
+.DS_Store
+.vscode/
